@@ -10,6 +10,8 @@ public class E02_FileIO {
 	 */
 	public static void main(String[] args) {
 		
+	
+		
 		//생성자로 경로 전달
 		File a = new File("a.txt");
 		File b = new File("b.txt");
@@ -40,6 +42,7 @@ public class E02_FileIO {
 			dir2.mkdir(); //mkdir(): 디렉토리 생성 메서드 
 		} else {
 			System.out.println("이미 존재하는 디렉토리입니다");
+			
 		}
 	}
 }

@@ -23,7 +23,7 @@ public class E01_JavaIO {
 
 		FileOutputStream fout = null;
 		
-		try {
+		
 			/*
 			 절대 경로와 상대 경로
 			 
@@ -41,9 +41,9 @@ public class E01_JavaIO {
 			 	상대 경로 예
 			 	- ./ ../ ../download.jpg
 			 */
-		}
+		
 		try {
-			fout = new FileOutputStream("./a.txt",true);
+			fout = new FileOutputStream("./b.txt",true);
 
 			for (int i = 0; i < 10; ++i)
 				fout.write(String.format("오늘은 날씨가 참 좋네요 \n", i).getBytes());
